@@ -1,5 +1,6 @@
 class Api::V1::InsultsController < ApplicationController
   def index
-    require 'pry'; binding.pry
+    random_phrase = Insult.all.sample
+    render json: InsultSerializer.new(random_phrase)
   end
 end

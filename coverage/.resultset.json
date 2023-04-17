@@ -250,6 +250,10 @@
       "/Users/bryanflanagan/turing_work/4mod/projects/hackathon/insults/config/routes.rb": {
         "lines": [
           1,
+          1,
+          1,
+          1,
+          null,
           null,
           null
         ]
@@ -274,8 +278,53 @@
           1,
           null
         ]
+      },
+      "/Users/bryanflanagan/turing_work/4mod/projects/hackathon/insults/spec/requests/api/v1/insults_index_request_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/bryanflanagan/turing_work/4mod/projects/hackathon/insults/app/controllers/concerns/api/v1/insults_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/bryanflanagan/turing_work/4mod/projects/hackathon/insults/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/bryanflanagan/turing_work/4mod/projects/hackathon/insults/app/serializers/insult_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
       }
     },
-    "timestamp": 1681747868
+    "timestamp": 1681753540
   }
 }
