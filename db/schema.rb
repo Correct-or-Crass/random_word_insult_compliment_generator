@@ -10,10 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2023_04_17_154908) do
+ActiveRecord::Schema.define(version: 2023_04_17_161609) do
 
   create_table "insults", force: :cascade do |t|
-    t.string "insult"
+    t.string "insult_phrase"
   end
 
 end
