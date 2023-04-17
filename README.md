@@ -1,24 +1,20 @@
-# README
+## This API generates a random insult
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Root directory
+'https://shielded-headland-00998.herokuapp.com'
 
-Things you may want to cover:
+## API Endpoints
+- 'GET  /api/v1/insults'
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Successful respoinse:
+```
+{
+  "data": {
+      "id": "7",
+      "type": "insult",
+      "attributes": {
+            "insult_phrase": "You have miles to go before you reach mediocre."
+            }
+      }
+}
+```
