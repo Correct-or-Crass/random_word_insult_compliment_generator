@@ -1,7 +1,27 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+
+insult_1 = Insult.create!(insult_phrase: "You're about as useful as a screen door on a submarine.")
+insult_2 = Insult.create!(insult_phrase: "If I throw a stick, will you leave?")
+insult_3 = Insult.create!(insult_phrase: "You are impossible to underestimate.")
+insult_4 = Insult.create!(insult_phrase: "I could eat a bowl of alphabet soup and poop out a smarter statement than whatever you just said.")
+insult_5 = Insult.create!(insult_phrase: "I discovered your point in life… To be an organ donor.")
+insult_6 = Insult.create!(insult_phrase: "The gene pool needs a lifeguard because of you.")
+insult_7 = Insult.create!(insult_phrase: "You have miles to go before you reach mediocre.")
+insult_8 = Insult.create!(insult_phrase: "I wish I had a flip phone, so I could slam it shut on this conversation.")
+insult_9 = Insult.create!(insult_phrase: "Somewhere out there is a tree tirelessly producing oxygen for you. You owe it an apology.")
+insult_10 = Insult.create!(insult_phrase: "Isn't it dangerous to use your whole vocabulary in one sentence?")
+insult_11 = Insult.create!(insult_phrase: "I'm not saying I hate you, what I'm saying is that you are literally the Monday of my life.")
+insult_12 = Insult.create!(insult_phrase: "So as an outsider, what do you think of the human race?")
+insult_13 = Insult.create!(insult_phrase: "Calling you an idiot would be an insult to all stupid people.")
+insult_14 = Insult.create!(insult_phrase: "I've seen people like you before. Of course, I had to pay admission to get access.")
+insult_15 = Insult.create!(insult_phrase: "Were you born on the highway? That is where most accidents happen.")
+insult_16 = Insult.create!(insult_phrase: "You fear success, but you really have nothing to worry about.")
+insult_17 = Insult.create!(insult_phrase: "If genius skips a generation, your children will be brilliant.")
+insult_18 = Insult.create!(insult_phrase: "Don't be ashamed of who you are. That's your parents' job.")
+insult_19 = Insult.create!(insult_phrase: "If ignorance is bliss, you must be the happiest person on the planet.")
+insult_20 = Insult.create!(insult_phrase: "You have an entire life to be an idiot. Why not take today off?")
+insult_21 = Insult.create!(insult_phrase: "I don't know what your problem is, but I'm guessing it's hard to pronounce.")
+insult_22 = Insult.create!(insult_phrase: "I'm busy right now, can I ignore you another time?")
+insult_23 = Insult.create!(insult_phrase: "I'm glad to see you're not letting education get in the way of your ignorance.")
+insult_24 = Insult.create!(insult_phrase: "Wow, your maker really didn't waste time giving you a personality, huh?")
+insult_25 = Insult.create!(insult_phrase: "I'd say you're 'dumb as a rock,' but at least a rock can hold a door open.")
+
