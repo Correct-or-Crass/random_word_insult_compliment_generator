@@ -2,8 +2,8 @@ require 'rails_helper'
 
 RSpec.describe "compliments" do
   it 'lists all compliments' do
-    compliment_1 = Compliment.create!(compliment_phrase: "You're about as useful as a screen door on a submarine.")
-    compliment_2 = Compliment.create!(compliment_phrase: "If I throw a stick, will you leave?")
+    compliment_1 = Compliment.create!(compliment_phrase: "You’re a smart cookie.")
+    compliment_2 = Compliment.create!(compliment_phrase: "You deserve a hug right now.")
     get "/api/v1/compliments"
 
     parse = JSON.parse(response.body, symbolize_names: true)[:data]
