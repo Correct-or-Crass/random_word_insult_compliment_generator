@@ -253,6 +253,7 @@
           1,
           1,
           1,
+          1,
           null,
           null,
           null
@@ -298,7 +299,23 @@
       },
       "/Users/bryanflanagan/turing_work/4mod/projects/hackathon/random_insult_or_compliment_generator/spec/requests/api/v1/compliments_index_request_spec.rb": {
         "lines": [
-
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
         ]
       },
       "/Users/bryanflanagan/turing_work/4mod/projects/hackathon/random_insult_or_compliment_generator/spec/requests/api/v1/insults_index_request_spec.rb": {
@@ -322,7 +339,7 @@
           null
         ]
       },
-      "/Users/bryanflanagan/turing_work/4mod/projects/hackathon/random_insult_or_compliment_generator/app/controllers/concerns/api/v1/insults_controller.rb": {
+      "/Users/bryanflanagan/turing_work/4mod/projects/hackathon/random_insult_or_compliment_generator/app/controllers/concerns/api/v1/compliments_controller.rb": {
         "lines": [
           1,
           1,
@@ -338,6 +355,24 @@
           null
         ]
       },
+      "/Users/bryanflanagan/turing_work/4mod/projects/hackathon/random_insult_or_compliment_generator/app/serializers/compliment_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/bryanflanagan/turing_work/4mod/projects/hackathon/random_insult_or_compliment_generator/app/controllers/concerns/api/v1/insults_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/bryanflanagan/turing_work/4mod/projects/hackathon/random_insult_or_compliment_generator/app/serializers/insult_serializer.rb": {
         "lines": [
           1,
@@ -347,6 +382,6 @@
         ]
       }
     },
-    "timestamp": 1682533100
+    "timestamp": 1682536864
   }
 }

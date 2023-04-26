@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2023-04-26T12:18:20-06:00">2023-04-26T12:18:20-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2023-04-26T13:21:04-06:00">2023-04-26T13:21:04-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -30,7 +30,7 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.03
+         1.02
        </span>
     </span> hits/line
     )
@@ -39,12 +39,12 @@
   <a name="AllFiles"></a>
 
   <div>
-    <b>24</b> files in total.
+    <b>26</b> files in total.
   </div>
 
   <div class="t-line-summary">
-    <b>78</b> relevant lines,
-    <span class="green"><b>78</b> lines covered</span> and
+    <b>98</b> relevant lines,
+    <span class="green"><b>98</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed. </span>
     (<span class="green">
   100.0%
@@ -76,6 +76,17 @@
             <td class="cell--number">2</td>
             <td class="cell--number">1</td>
             <td class="cell--number">1</td>
+            <td class="cell--number">0</td>
+            <td class="cell--number">1.00</td>
+            
+          </tr>
+        
+          <tr class="t-file">
+            <td class="strong t-file__name"><a href="#1163857a46a8b74d27d15444a241eca2eb2d945a" class="src_link" title="app/controllers/concerns/api/v1/compliments_controller.rb">app/controllers/concerns/api/v1/compliments_controller.rb</a></td>
+            <td class="green strong cell--number t-file__coverage">100.00 %</td>
+            <td class="cell--number">6</td>
+            <td class="cell--number">4</td>
+            <td class="cell--number">4</td>
             <td class="cell--number">0</td>
             <td class="cell--number">1.00</td>
             
@@ -131,6 +142,17 @@
             <td class="cell--number">3</td>
             <td class="cell--number">2</td>
             <td class="cell--number">2</td>
+            <td class="cell--number">0</td>
+            <td class="cell--number">1.00</td>
+            
+          </tr>
+        
+          <tr class="t-file">
+            <td class="strong t-file__name"><a href="#40e7dbee1e4febe6dc729f9ec03fabe3f38b279c" class="src_link" title="app/serializers/compliment_serializer.rb">app/serializers/compliment_serializer.rb</a></td>
+            <td class="green strong cell--number t-file__coverage">100.00 %</td>
+            <td class="cell--number">4</td>
+            <td class="cell--number">3</td>
+            <td class="cell--number">3</td>
             <td class="cell--number">0</td>
             <td class="cell--number">1.00</td>
             
@@ -293,9 +315,9 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#a147a6781cbb33e93915409ef71853478a118979" class="src_link" title="config/routes.rb">config/routes.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">7</td>
-            <td class="cell--number">4</td>
-            <td class="cell--number">4</td>
+            <td class="cell--number">8</td>
+            <td class="cell--number">5</td>
+            <td class="cell--number">5</td>
             <td class="cell--number">0</td>
             <td class="cell--number">1.00</td>
             
@@ -315,11 +337,11 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#66b59daa23f4f22f6fd2b119ef801dd660532ab0" class="src_link" title="spec/requests/api/v1/compliments_index_request_spec.rb">spec/requests/api/v1/compliments_index_request_spec.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
+            <td class="cell--number">17</td>
+            <td class="cell--number">12</td>
+            <td class="cell--number">12</td>
             <td class="cell--number">0</td>
-            <td class="cell--number">0</td>
-            <td class="cell--number">0</td>
-            <td class="cell--number">0</td>
-            <td class="cell--number">0.00</td>
+            <td class="cell--number">1.00</td>
             
           </tr>
         
@@ -390,6 +412,103 @@
       
         <div>
           <li class="never" data-hits="" data-linenumber="2">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="1163857a46a8b74d27d15444a241eca2eb2d945a">
+  <div class="header">
+    <h3>app/controllers/concerns/api/v1/compliments_controller.rb</h3>
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>4</b> relevant lines.
+      <span class="green"><b>4</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+
+    
+
+  </div>
+
+  <pre>
+    <ol>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">class Api::V1::ComplimentsController &lt; ApplicationController</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="2">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def index</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="3">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    random_comp = Compliment.all.sample</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="4">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    render json: ComplimentSerializer.new(random_comp)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="5">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="6">
             
             
 
@@ -732,6 +851,81 @@
       
         <div>
           <li class="never" data-hits="" data-linenumber="3">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="40e7dbee1e4febe6dc729f9ec03fabe3f38b279c">
+  <div class="header">
+    <h3>app/serializers/compliment_serializer.rb</h3>
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>3</b> relevant lines.
+      <span class="green"><b>3</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+
+    
+
+  </div>
+
+  <pre>
+    <ol>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">class ComplimentSerializer</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="2">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  include JSONAPI::Serializer </code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="3">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  attributes :compliment_phrase</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="4">
             
             
 
@@ -3372,8 +3566,8 @@
     
 
     <div class="t-line-summary">
-      <b>4</b> relevant lines.
-      <span class="green"><b>4</b> lines covered</span> and
+      <b>5</b> relevant lines.
+      <span class="green"><b>5</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -3429,13 +3623,13 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="5">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="5">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">    end</code>
+            
+
+            <code class="ruby">      resources :compliments, only: :index</code>
           </li>
         </div>
       
@@ -3446,12 +3640,23 @@
 
             
 
-            <code class="ruby">  end</code>
+            <code class="ruby">    end</code>
           </li>
         </div>
       
         <div>
           <li class="never" data-hits="" data-linenumber="7">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="8">
             
             
 
@@ -3588,8 +3793,8 @@
     
 
     <div class="t-line-summary">
-      <b>0</b> relevant lines.
-      <span class="green"><b>0</b> lines covered</span> and
+      <b>12</b> relevant lines.
+      <span class="green"><b>12</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -3599,6 +3804,193 @@
 
   <pre>
     <ol>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">require &#39;rails_helper&#39;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="2">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="3">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">RSpec.describe &quot;compliments&quot; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="4">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  it &#39;lists all compliments&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="5">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    compliment_1 = Compliment.create!(compliment_phrase: &quot;You&#39;re about as useful as a screen door on a submarine.&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="6">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    compliment_2 = Compliment.create!(compliment_phrase: &quot;If I throw a stick, will you leave?&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="7">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    get &quot;/api/v1/compliments&quot;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="8">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="9">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    parse = JSON.parse(response.body, symbolize_names: true)[:data]</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="10">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(parse).to be_a Hash</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="11">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(parse).to have_key (:attributes)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="12">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(parse[:attributes]).to be_a Hash</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="13">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(parse[:attributes]).to have_key (:compliment_phrase)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="14">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(parse[:attributes][:compliment_phrase]).to be_a String</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="15">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="16">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="17">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
       
     </ol>
   </pre>
