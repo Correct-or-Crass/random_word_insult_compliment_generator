@@ -1,4 +1,4 @@
-## This API generates a random insult
+## This API returns a random insult or compliment
 
 ## Root directory
 'https://shielded-headland-00998.herokuapp.com'
@@ -6,7 +6,7 @@
 ## API Endpoints
 - 'GET  /api/v1/insults'
 
-- Successful respoinse:
+- Successful response:
 ```
 {
   "data": {
