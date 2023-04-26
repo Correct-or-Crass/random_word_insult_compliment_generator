@@ -18,3 +18,17 @@
       }
 }
 ```
+- 'GET  /api/v1/compliments'
+
+- Successful response:
+```
+{
+  "data": {
+      "id": "12",
+      "type": "compliment",
+      "attributes": {
+            "compliment_phrase": "You were cool way before hipsters were cool."
+            }
+        }
+}
+```
