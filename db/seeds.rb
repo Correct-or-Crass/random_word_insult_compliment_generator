@@ -25,3 +25,4 @@ insult_23 = Insult.create!(insult_phrase: "I'm glad to see you're not letting ed
 insult_24 = Insult.create!(insult_phrase: "Wow, your maker really didn't waste time giving you a personality, huh?")
 insult_25 = Insult.create!(insult_phrase: "I'd say you're 'dumb as a rock,' but at least a rock can hold a door open.")
 
+compliment_1 = Compliment.create!(compliment_phrase: "You’re a smart cookie.")
