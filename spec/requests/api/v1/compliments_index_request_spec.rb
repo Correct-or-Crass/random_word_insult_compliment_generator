@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe "compliments" do
-  it 'lists all compliments' do
+  it 'returns random compliment' do
     compliment_1 = Compliment.create!(compliment_phrase: "You’re a smart cookie.")
     compliment_2 = Compliment.create!(compliment_phrase: "You deserve a hug right now.")
     get "/api/v1/compliments"
