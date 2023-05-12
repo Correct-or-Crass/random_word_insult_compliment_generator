@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2023_04_26_181712) do
+ActiveRecord::Schema.define(version: 2023_05_12_195007) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -21,6 +21,10 @@ ActiveRecord::Schema.define(version: 2023_04_26_181712) do
 
   create_table "insults", force: :cascade do |t|
     t.string "insult_phrase"
+  end
+
+  create_table "words", force: :cascade do |t|
+    t.string "word"
   end
 
 end
