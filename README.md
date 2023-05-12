@@ -1,4 +1,4 @@
-## This API returns a random insult or compliment
+## This API returns a random insult, compliment, or word
 
 ## Root directory
 'https://shielded-headland-00998.herokuapp.com'
@@ -30,5 +30,19 @@
             "compliment_phrase": "You were cool way before hipsters were cool."
             }
         }
+}
+```
+- 'GET  /api/v1/words'
+
+- Successful response:
+```
+{
+  "data": {
+      "id": "9",
+      "type": "word",
+      "attributes": {
+            "word": "Hand"
+            }
+      }
 }
 ```
