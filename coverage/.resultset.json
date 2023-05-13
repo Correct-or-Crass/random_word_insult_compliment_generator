@@ -285,7 +285,13 @@
           1,
           1,
           1,
+          0,
+          null,
           1,
+          null,
+          1,
+          0,
+          0,
           null,
           null
         ]
@@ -295,16 +301,8 @@
           1,
           null
         ]
-      },
-      "/Users/bryanflanagan/turing_work/4mod/projects/hackathon/random_insult_or_compliment_generator/app/serializers/word_serializer.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null
-        ]
       }
     },
-    "timestamp": 1683923072
+    "timestamp": 1683994888
   }
 }
