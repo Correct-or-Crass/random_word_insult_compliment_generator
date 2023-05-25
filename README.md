@@ -32,7 +32,7 @@
         }
 }
 ```
-- 'GET  /api/v1/words'
+- 'GET  /api/v1/words', params { amount: }
 
 - Successful response:
 ```
